@@ -4,9 +4,9 @@ import Container from 'react-bootstrap/Container';
 
 function Jumbo() {
   return (
-    <Jumbotron fluid>
+    <Jumbotron fluid className='bg-primary text-white'>
       <Container>
-        <h1>
+        <h1 className='text-white'>
           Software Engineer | React Developer | JavaScript Developer | Python
           Developer | Django Developer | Cool Guy
         </h1>
